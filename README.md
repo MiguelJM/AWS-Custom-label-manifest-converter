@@ -61,7 +61,8 @@ The output will contain one row per image with all the labels in place. The stru
       "creation-date":"2023-04-17T00:00:00",
       "job-name":"Python custom manifest creator"
    }
-}{
+}
+{
    "source-ref":"s3://your_s3_bucket/the_s3_folder/image_2.jpg",
    "image-1":{
       "image_size":[
