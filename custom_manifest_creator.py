@@ -1,6 +1,6 @@
 # Developer: Miguel Angel Jara Maldonado
 # Creation Date: 2023/04/14
-# Last Modification Date: 2023/04/14 15:34
+# Last Modification Date: 2023/04/17 16:52
 # Description: This script takes the labels of the dataset from a csv file and creates a Sage Maker manifest file.
 
 import time
