@@ -7,9 +7,8 @@ Make sure to have uploaded all the images in the s3 bucket. The names of the fil
 
 The structure of the csv annotations file should be as follows, where the x and y fields represent bounding box pixel positions:
 
-![image](https://user-images.githubusercontent.com/15978111/232622377-77bc7192-c155-4d22-9ed5-a61f8fa9a257.png)
 | filename  | width | height | class | xmin | ymin | xmax | ymax |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | image.jpg  | 416 | 416 | Damage | 160 | 227 | 184 | 270 |
 | image_2.jpg  | 416 | 416 | Damage | 12 | 5 | 346 | 379 |
 | image_2.jpg  | 416 | 416 | Damage | 117 | 192 | 226 | 272 |
