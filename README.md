@@ -2,8 +2,9 @@
 This Python script converts a csv file into an AWS SageMaker Ground Truth manifest to be used by Rekognition for the custom labels feature.
 
 Instructions:
-Modify the set_labels_column function with your own categorical labels.
-Make sure to have uploaded all the images in the s3 bucket. The names of the files in the s3 bucket should be the same as in your csv annotations file.
+Modify the set_labels_column function with your own categorical labels.__
+Set your own inputs: mode, manifest folder (output), annotations_file_folder (input), and s3 bucket name.__
+Make sure to have uploaded all the images in the s3 bucket. The names of the files in the s3 bucket should be the same as in your csv annotations file.__
 
 The structure of the csv annotations file should be as follows, where the x and y fields represent bounding box pixel positions:
 
