@@ -4,7 +4,7 @@ This Python script converts a csv file into an AWS SageMaker Ground Truth manife
 The structure of the csv annotations file should be as follows, where the x and y fields represent bounding box pixel positions:
 
 ![image](https://user-images.githubusercontent.com/15978111/232622377-77bc7192-c155-4d22-9ed5-a61f8fa9a257.png)
-| filenam  | width |
+| filename  | width | height | class | xmin | ymin | xmax | ymax |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
