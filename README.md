@@ -3,14 +3,15 @@ This Python script converts a csv file into an AWS SageMaker Ground Truth manife
 
 Instructions:
 Modify the set_labels_column function with your own categorical labels.
+Make sure to have uploaded all the images in the s3 bucket. The names of the files in the s3 bucket should be the same as in your csv annotations file.
 
 The structure of the csv annotations file should be as follows, where the x and y fields represent bounding box pixel positions:
 
 ![image](https://user-images.githubusercontent.com/15978111/232622377-77bc7192-c155-4d22-9ed5-a61f8fa9a257.png)
 | filename  | width | height | class | xmin | ymin | xmax | ymax |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| image.jpg  | 416 | 416 | Damage | 160 | 227 | 184 | 270 |
+
 
 The script will automatically perform the corresponding convertions:
 
