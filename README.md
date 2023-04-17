@@ -12,7 +12,7 @@ top = ymax - (ymax - ymin)
 width = xmax - xmin
 height = ymax - ymin
 
-The output will contain one row per image with all the labels in place. The structure of the JSON output is similar to the following:
+The output will contain one row per image with all the labels in place. The structure of the JSON output (in one row per image) is similar to the following:
 ```json
  {
    "source-ref":"s3://your_s3_bucket/the_s3_folder/image.jpg",
