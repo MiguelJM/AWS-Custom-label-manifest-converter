@@ -7,10 +7,12 @@ The structure of the csv annotations file should be as follows, where the x and 
 
 The script will automatically perform the corresponding convertions:
 
+```python
 left = xmin
 top = ymax - (ymax - ymin)
 width = xmax - xmin
 height = ymax - ymin
+```
 
 The output will contain one row per image with all the labels in place. The structure of the JSON output (in one row per image) is similar to the following:
 ```json
