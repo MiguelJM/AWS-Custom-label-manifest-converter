@@ -11,6 +11,8 @@ The structure of the csv annotations file should be as follows, where the x and 
 | filename  | width | height | class | xmin | ymin | xmax | ymax |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | image.jpg  | 416 | 416 | Damage | 160 | 227 | 184 | 270 |
+| image_2.jpg  | 416 | 416 | Damage | 12 | 5 | 346 | 379 |
+| image_2.jpg  | 416 | 416 | Damage | 117 | 192 | 226 | 272 |
 
 
 The script will automatically perform the corresponding convertions:
@@ -76,11 +78,21 @@ The output will contain one row per image with all the labels in place. The stru
             "left":12.0,
             "width":334.0,
             "height":374.0
+         },         
+         {
+            "class_id":1,
+            "top": 192.0, 
+            "left": 117.0, 
+            "width": 109.0, 
+            "height": 80.0
          }
       ]
    },
    "image-1-metadata":{
       "objects":[
+         {
+            "confidence":1
+         },
          {
             "confidence":1
          }
